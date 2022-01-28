@@ -18,10 +18,10 @@ public class Backjoon_2577 {
 
 		int[] arr = new int[10];
 
-		String resultArr = String.valueOf(result);
+		String resultArr = String.valueOf(result); // 문자열로 변환
 
 		for (int i = 0; i < resultArr.length(); i++) {
-			arr[resultArr.charAt(i) - '0']++;
+			arr[resultArr.charAt(i) - '0']++;	//문자열이랑 같은 숫자 카운트
 		}
 
 		for (int x : arr) {
