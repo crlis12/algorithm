@@ -16,7 +16,7 @@ public class Backjoon_4673 {
 		}
 
 		for (int i = 1; i < 10001; i++) {
-			if(check[i] == false) {		
+			if (check[i] == false) {
 				System.out.println(i);
 			}
 		}
