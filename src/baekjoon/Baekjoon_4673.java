@@ -1,6 +1,6 @@
-package backjoon;
+package baekjoon;
 
-public class Backjoon_4673 {
+public class Baekjoon_4673 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

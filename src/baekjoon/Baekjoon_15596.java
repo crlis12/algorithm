@@ -1,6 +1,6 @@
-package backjoon;
+package baekjoon;
 
-public class Backjoon_15596 {
+public class Baekjoon_15596 {
 	long sum(int[] a) {
 		int sum =0;
 		
