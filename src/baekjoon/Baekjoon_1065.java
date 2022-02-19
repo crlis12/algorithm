@@ -28,9 +28,9 @@ public class Baekjoon_1065 {
 				num = 999;
 			}
 			for (int i = 100; i <= num; i++) {
-				int third = i / 100;
-				int second = (i / 10) % 10;
-				int first = i % 10;
+				int third = i / 100;	// 세번째 자리수
+				int second = (i / 10) % 10; // 두번쨰 자리수
+				int first = i % 10; // 첫번쨰 자리수
 
 				if ((third - second) == (second - first)) {
 					count++;
